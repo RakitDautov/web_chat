@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomePage from '@/views/HomePage.vue'
+import DialogPage from '@/views/DialogPage.vue'
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,11 @@ const routes = [
     name: 'home',
     component: HomePage
   },
+  {
+    path: '/dialogpage/:id',
+    name: 'dialogpage',
+    component: DialogPage  
+  }
 ]
 
 const router = new VueRouter({
