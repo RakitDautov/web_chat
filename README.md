@@ -12,7 +12,7 @@
 
     Python
     Django, DRF
-    Websockets (chanelы)
+    Websockets (chanels)
     JavaScript
     Vue.js
     Bootstrap
